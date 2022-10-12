@@ -1,0 +1,19 @@
+.App-text-contents2 {
+
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  text-align: right;
+  color: white;
+  background-image: linear-gradient(to right, rgba(11, 34, 243, 0.041), rgba(92, 107, 243, 0.233));
+  margin-top: 20px;
+  width: 100vmin;
+}
+
+.App-contents2-text {
+  margin: 10px;
+  padding-right: 2vh;
+}

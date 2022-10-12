@@ -1,0 +1,39 @@
+.check-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: calc(2px + 2vmin);
+}
+
+.check-text-box {
+  background-color: rgba(50, 51, 61, 0.432);
+  margin: 10px 50px 10px 50px;
+}
+
+.check-box-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: calc(2px + 2vmin);
+  margin: 0px 20px 0px 20px;
+  width: 75vmin;
+}
+
+.link:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 8px;
+  padding: 0px 50px 0px 50px;
+}
+
+.app-logo {
+  height: 75px;
+}
+
+.socialicon {
+  height: 25px;
+  margin: 25px 5px 75px 5px;
+}

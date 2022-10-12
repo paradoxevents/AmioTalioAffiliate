@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-image: url("image/659ec80c18a11c51821a9a47e38ea902.png"), linear-gradient(to right, rgba(4, 2, 22, 0.979), rgb(0, 0, 0));
+  background-repeat: no-repeat;
+  background-position: bottom 0px right 0px;
+  background-size: 100%, 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.subtitle-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-text-point {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+
+.submit-button {
+  background-color: #3d47c7;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  clip-path: polygon(0 15.00px, 15.00px 0, 100% 0, 100% calc(100% - 15.00px), calc(100% - 15.00px) 100%, 0 100%);
+
+}
+
+.popup-heading {
+  padding-right: 15px;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.popup-content {
+  /* font-family: Inter; */
+  font-size: 18px;
+  display: flex;
+  padding: 0px 25px 0px 20px;
+  flex-direction: column;
+}
+
+.TG-logo {
+  padding-right: 15px;
+}
