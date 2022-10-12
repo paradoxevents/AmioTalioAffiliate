@@ -8,7 +8,7 @@ const info = {
     twich:"https://www.twitch.tv/amiotalio",
     twitter:"https://twitter.com/Paradoxmeta_io",
   }
-
+  
 }
 
 export default info;

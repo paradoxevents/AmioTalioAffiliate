@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Popup.css"
-import logo from "../image/paraffiliate.png";
+import logo from "../image/amioaffiliate.png";
 import tglogo from "../image/telegram_darwin.png";
 import CloseIcon from '@mui/icons-material/Close';
 

@@ -1,4 +1,4 @@
-import logo from "../image/paraffiliate.png";
+import logo from "../image/amioaffiliate.png";
 import youtube from "../image/youtube.png";
 import twitter from "../image/twitter.png";
 import discord from "../image/discord.png";

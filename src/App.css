@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url("image/659ec80c18a11c51821a9a47e38ea902.png"), linear-gradient(to right, rgba(4, 2, 22, 0.979), rgb(0, 0, 0));
+  background-image: linear-gradient(to right, #B59524, rgb(0, 0, 0), rgb(0, 0, 0));
   background-repeat: no-repeat;
   background-position: bottom 0px right 0px;
   background-size: 100%, 100%;
@@ -20,7 +20,7 @@
 }
 
 .submit-button {
-  background-color: #3d47c7;
+  background-color: #303516;
   /* Green */
   border: none;
   color: white;
@@ -35,12 +35,12 @@
 
 .popup-heading {
   padding-right: 15px;
-  padding-top: 30px;
+  padding-top: 0px;
   font-size: 25px;
+  margin: 20px 0px 0px 0px;
 }
 
 .popup-content {
-  /* font-family: Inter; */
   font-size: 18px;
   display: flex;
   padding: 0px 25px 0px 20px;
@@ -49,4 +49,8 @@
 
 .TG-logo {
   padding-right: 15px;
+}
+
+.popup-p {
+  margin: 12px;
 }

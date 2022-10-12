@@ -1,20 +1,21 @@
 import "./Title.css";
-import logo from '../image/paraffiliate.png';
+import logo from '../image/amioaffiliate.png';
 import React from "react";
+import video from '../image/video.mp4';
 
 export function Title(){
   return(
-    <header className="App-header">
+    <header>
+      <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <video src={video} className="App-video">
+        </video>
         <p className="App-text-header">
-        EARN £10 FOR SINGING UP!
+        LISTEN TO ME AND I'LL
+        <br/>
+        MAKE YOU RICH!
         </p>
-        <p className="App-text-subheader">
-          &
-        </p >
-        <p className="App-text-subheader2">
-        EARN £5 FOR EVERY PERSON YOU SIGN UP!
-        </p>
+        </div>
       </header>
   )
 };

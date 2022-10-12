@@ -1,8 +1,6 @@
 import './App.css';
 import { Footer } from './components/Footer';
-import { Signup } from './components/Signup';
-import { Subtitle1 } from './components/Subtitle1';
-import { Subtitle2 } from './components/Subtitle2';
+import { Subtitle } from './components/Subtitle';
 import { Title } from './components/Title';
 import Popup from './components/Popup';
 import React, { useState, useEffect } from "react";
@@ -22,13 +20,10 @@ function App() {
       <main>
         <Title></Title>
         <div className="subtitle-box">
-        <Subtitle1></Subtitle1>
-        <Subtitle2></Subtitle2>
+        <Subtitle></Subtitle>
         </div>
-
-        <Signup></Signup>
         <br></br>
-        <button onClick={() =>setButtonPopup(true)} className="submit-button">SUBMIT!</button>
+        <button onClick={() =>setButtonPopup(true)} className="submit-button">BRING ME IN!</button>
 
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
         <h3 className="popup-heading">Congratulations!</h3>
@@ -36,11 +31,11 @@ function App() {
           <p>
           <span>Youve decided to make</span><br/>
           <span>money by joining the</span><br/> 
-          <span>Paradox</span><br/>
+          <span>AmioTalio</span><br/>
           <span>Affiliate Program!</span><br/>
           </p>
           <p>
-          <span>Join Our Paradox Affiliate </span><br/>
+          <span>Join Our AmioTalio Affiliate </span><br/>
           <span>Telegram group for more info!</span></p>
           </div>
         </Popup>
@@ -48,12 +43,13 @@ function App() {
         <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
           <h3 className="popup-heading">Congratulations!</h3>
           <div className="popup-content">
-          <p>
+          <p className='popup-p'>
           <span>For Joining Up The</span><br/>
-          <span>Paradox</span><br/>
+          <span>AmioTalio</span><br/>
           <span>Affiliate Program!</span>
           </p>
-          <p>Every 24 hours Your Payment will be submitted Join Our Paradox Affiliate Telegram group for more info!</p>
+          <p className='popup-p'>Every 24 hours Your Payment <br/>will be submitted</p>  
+          <p className='popup-p'>Join Our Paradox Affiliate Telegram group for more info!</p>
           </div>
         </Popup>
         <Footer></Footer>
